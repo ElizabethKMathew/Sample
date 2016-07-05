@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p>Enter the number to reverse</p>
+	<input type="text" placeholder="Enter text" id="str"></input>
+	<input type="button" value="Check" onclick="palin();"></input>
+	<script type="text/javascript">
+		function palin(){
+			var str1 = document.getElementById('str').value;
+			console.log(str1);
+			console.log(str1.split("").sort().join(""));
+		}
+	</script>
+</body>
+</html>
